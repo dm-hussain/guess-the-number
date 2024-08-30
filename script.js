@@ -1,7 +1,7 @@
 // JavaScript Code***********************************
 
 let randomNum = Math.floor(Math.random() * 100);
-console.log(randomNum);
+ 
 
 let userInput = document.querySelector('input');
 let message = document.querySelector('#msg');
@@ -49,7 +49,7 @@ function showResult() {
 function resetAll() {
 
     randomNum = Math.floor(Math.random() * 100);
-    console.log(randomNum);
+   
   message.innerText = '';
   userGuess = [];
   message.classList.add('hide');
