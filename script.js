@@ -1,4 +1,8 @@
-// JavaScript Code***********************************
+ // JavaScript Code***********************************
+
+
+(function() {
+   
 
 let randomNum = Math.floor(Math.random() * 100);
  
@@ -70,3 +74,4 @@ submitBtn.addEventListener('click', () => {
 restartBtn.addEventListener('click', () => {
   resetAll();
 });
+  })();
